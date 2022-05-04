@@ -82,3 +82,9 @@
 - v5: 유연한 컨트롤러
     - 어댑터 도입
     - 어댑터를 추가해서 프레임워크를 유연하고 확장성 있게 설계
+
+#### Spring MVC
+
+- `@RequestMapping`
+    - `@RequestMappingHandlerMapping` - `@RequestMapping`의 URI에 해당하는 handler 찾기
+    - `@RequestMappingHandlerAdapter` - 찾은 handler를 처리할 수 있는 adapter를 찾기
